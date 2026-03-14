@@ -1,0 +1,20 @@
+name: WoodsPixelBazaars
+version: '1.0.0'
+main: com.woodspixel.bazaars.WoodsPixelBazaarsPlugin
+api-version: '1.21'
+author: WoodsPixel
+softdepend:
+  - Vault
+  - Essentials
+commands:
+  bz:
+    description: Open the WoodsPixel Bazaar
+    usage: /bz
+    permission: woodspixelbazaars.use
+permissions:
+  woodspixelbazaars.use:
+    description: Allows players to open the bazaar
+    default: true
+  woodspixelbazaars.admin:
+    description: Allows administrative commands and reload
+    default: op
